@@ -31,8 +31,20 @@ for fruit in fruits:
     print("Fruit:", fruit)
 '''
 #string example
-'''
+
 name = "Alien"
 for letter in name:
     print(letter)
-'''
+
+#Loop Control — break & continue
+
+#break example
+
+for i in range(1, 6):
+    if i == 4:
+        break
+    print(i)  
+#continue examplefor i in range(1, 6):
+    if i == 3:
+        continue
+    print(i) 
