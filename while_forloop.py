@@ -44,7 +44,11 @@ for i in range(1, 6):
     if i == 4:
         break
     print(i)  
-#continue examplefor i in range(1, 6):
+#continue example
     if i == 3:
         continue
     print(i) 
+#start, stop, step
+    for i in range(1, 10, 3):
+    print(i)
+
